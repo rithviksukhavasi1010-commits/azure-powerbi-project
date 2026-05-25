@@ -74,3 +74,9 @@ UPDATE [dbo].[Men+Tshirt (1)]
 SET original_price =
 TRIM(REPLACE(CAST(original_price AS VARCHAR(MAX)), '?', ''))
 WHERE original_price LIKE '%?%'
+
+update [dbo].[Men+Tshirt (1)]
+set
+sale_price = trim(replace(cast(original_price as varcharmax)),?,))
+where sale price like
+%%*
