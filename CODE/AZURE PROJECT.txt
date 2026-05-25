@@ -1,0 +1,22 @@
+DAX FUNCTIONS
+Discount % = DIVIDE('Men+Tshirt (1)'[Marked price]-'Men+Tshirt (1)'[Sales_Price],'Men+Tshirt (1)'[Marked price])*100 
+
+Cost price = DIVIDE(100*'Men+Tshirt (1)'[Sales_Price],100+'Men+Tshirt (1)'[Profit %])
+
+Profit % = RANDBETWEEN(2,17)
+
+
+SQL QUERIES
+SELECT TOP
+- (1000) * FROM [dbo]. [Men+Tshirt (1)
+update
+[dbo]. [Men+Tshirt (1)]
+set original price = trim(replace(cast(original_price as varchar(max)), ?,"))
+where
+original_price like
+"%7%
+update [dbo].[Men+Tshirt (1)]
+set
+sale_price = trim(replace(cast(original_price as varcharmax)),?,))
+where sale price like
+%%*
